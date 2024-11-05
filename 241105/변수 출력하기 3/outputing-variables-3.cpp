@@ -7,6 +7,6 @@ int main() {
     int b=2;
     char c='C';
 
-    cout<<a<<"->"<<a<<"->"<<c;
+    cout<<a<<"->"<<b<<"->"<<c;
     return 0;
 }
