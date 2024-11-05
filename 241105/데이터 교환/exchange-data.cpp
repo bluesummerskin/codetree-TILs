@@ -7,11 +7,11 @@ int main() {
     int b=6;
     int c=7;
 
+    int temp1=a;
     a=c;
     c=b;
+    b=temp1;
     
-    
-
     cout<<a<<endl;
     cout<<b<<endl;
     cout<<c<<endl;
