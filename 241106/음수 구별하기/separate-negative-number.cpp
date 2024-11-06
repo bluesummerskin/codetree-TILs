@@ -7,6 +7,6 @@ int main() {
     cin>>a;
 
     if(a<0)
-        cout<<"minus";
+        cout<<a<<endl<<"minus";
     return 0;
 }
