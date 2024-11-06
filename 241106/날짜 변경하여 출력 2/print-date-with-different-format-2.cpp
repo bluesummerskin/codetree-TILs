@@ -10,6 +10,6 @@ int main() {
     cin.get();
     cin>>year;
 
-    cout<<year<<"."<<day<<"."<<month;
+    cout<<year<<"."<<month<<"."<<day;
     return 0;
 }
