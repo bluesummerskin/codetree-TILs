@@ -6,8 +6,7 @@ int main() {
    cin>>a;
    cin.get();
    cin>>b;
-
-   cout<<a+1<<" : "<<b;
+   cout<<a+1<<":"<<b;
    
     return 0;
 }
