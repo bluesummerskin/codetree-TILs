@@ -1,11 +1,13 @@
 #include <iostream>
+#include<string>
 using namespace std;
 
 int main() {
     // 여기에 코드를 작성해주세요.
-   string a,b,c;
-    cin>>a;
-    cin.get();
+   string a="010-";
+   int b,c;
+
+    cout<<a<;
     cin>>b;
     cin.get();
     cin>>c;
