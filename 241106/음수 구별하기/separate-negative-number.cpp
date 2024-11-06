@@ -8,5 +8,7 @@ int main() {
 
     if(a<0)
         cout<<a<<endl<<"minus";
+    else
+        cout<<a;
     return 0;
 }
