@@ -12,6 +12,9 @@ int main() {
     else if(score>=1000){
         cout<<"mask";
     }
+    else if(score>=500){
+        cout<<"pen";
+    }
     else{
         cout<<"no";
     }
