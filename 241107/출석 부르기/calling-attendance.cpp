@@ -14,6 +14,9 @@ int main() {
     else if(num==3){
         cout<<"Paul";
     }
+    else{
+        cout<<"Vacancy";
+    }
     
     return 0;
 }
