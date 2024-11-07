@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     // 여기에 코드를 작성해주세요.
-    int a1,a2;
+    double a1,a2;
     cin>>a1>>a2;
 
     if(a1>=1.0 && a2>=1.0){
