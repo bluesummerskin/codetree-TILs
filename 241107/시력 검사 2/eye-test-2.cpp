@@ -6,7 +6,7 @@ int main() {
     double sight;
     cin>>sight;
 
-    if(signt>=1.0){
+    if(sight>=1.0){
         cout<<"High";
     }
     else if(sight>=0.5){
@@ -15,6 +15,6 @@ int main() {
     else{
         cout<<"Low";
     }
-    
+
     return 0;
 }
