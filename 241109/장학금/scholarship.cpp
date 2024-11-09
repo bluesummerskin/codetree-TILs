@@ -13,7 +13,7 @@ int main() {
         cout<<5;
     }
     else{
-        cout<<0'
+        cout<<0;
     }
     return 0;
 }
