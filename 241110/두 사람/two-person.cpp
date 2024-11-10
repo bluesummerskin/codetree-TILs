@@ -9,7 +9,10 @@ int main() {
     cin>>n1>>s1;
     cin>>n2>>s2;
 
-    if((n1>=19 || n2>=19) && (s1=="M" || s2=="M")){
+    if(n1>=19 && s1=="M"){
+        cout<<1;
+    }
+    else if(n2>=19 && s2=="M"){
         cout<<1;
     }
     else{
