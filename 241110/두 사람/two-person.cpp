@@ -7,7 +7,7 @@ int main() {
     string s1,s2;
 
     cin>>n1>>s1;
-    cin>>s2>>s2;
+    cin>>s1>>s2;
 
     if((n1>=19 || n2>=19) && (s1=="M" || s2=="M")){
         cout<<1;
