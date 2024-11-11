@@ -6,15 +6,14 @@ int main() {
     int a,b;
     cin>>a>>b;
 
-    for(int i=a;i<=b;i++){
+    int i=a;
+    while(i<=b){
+        cout<<i<<" ";
         if(i%2==0){
-            cout<<i<<" ";
-            i+=2;
+            i+=3;
         }
         else{
-            cout<<i<<" ";
             i*=2;
-            i-=1;
         }
     }
     
