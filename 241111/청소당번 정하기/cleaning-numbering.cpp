@@ -15,14 +15,11 @@ int main() {
         if(i%12==0){
             cnt_12++;
         }
-        else if(i%6==0){
+        else if(i%3==0){
             cnt_3++;
         }
         else if(i%2==0){
             cnt_2++;
-        }
-        else if(i%3==0){
-            cnt_3++;
         }
     }
 
