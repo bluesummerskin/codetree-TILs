@@ -7,7 +7,7 @@ int main() {
     cin>>n;
 
     int i=3;
-    for(i<=n){
+    while(i<=n){
         cout<<i<<" ";
         i+=3;
     }
