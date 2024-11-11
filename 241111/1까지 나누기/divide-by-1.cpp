@@ -6,14 +6,17 @@ int main() {
     int n;
     cin>>n;
     int cnt=0;
+    int result=n;
 
-    for(int i=1;i<=n;i++){
+    for(int i=1;i<=result;i++){
         cnt++;
-        if((n/i)<=1){
-            cout<<i;
+        n/=i;
+        if(n<=1){
             break;
         }
-        n/=i;
     }
+
+    cout<<cnt;
+
     return 0;
 }
