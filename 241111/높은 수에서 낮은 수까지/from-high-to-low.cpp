@@ -13,7 +13,7 @@ int main() {
     }
     else if(b>a){
         for(int i=b;i>=a;i++){
-            cou<<i<<" ";
+            cout<<i<<" ";
         }
     
     }
