@@ -6,9 +6,8 @@ int main() {
     int n;
     cin>>n;
     int cnt=0;
-    int result=n;
 
-    for(int i=1;i<=result;i++){
+    for(int i=1;i<=7;i++){
         cnt++;
         n/=i;
         if(n<=1){
