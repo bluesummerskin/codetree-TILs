@@ -6,7 +6,7 @@ int main() {
     int n;
     cin>>n;
 
-    for(int i=n;i<=100){
+    for(int i=n;i<=100; i++){
         if(n>=90){
             cout<<"A"<<" ";
         }
