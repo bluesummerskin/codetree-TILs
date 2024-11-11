@@ -11,12 +11,11 @@ int main() {
     cin>>n;
 
     for(int i=1;i<=n-1;i++){
-        
-         if(i%12==0){
+
+        if(i%12==0){
             cnt_12++;
         }
-
-        if(i%6==0){
+        else if(i%6==0){
             cnt_3++;
         }
         else if(i%2==0){
