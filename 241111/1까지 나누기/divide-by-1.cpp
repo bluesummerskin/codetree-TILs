@@ -9,10 +9,11 @@ int main() {
 
     for(int i=1;i<=n;i++){
         cnt++;
-        if((n%i)<=1){
-            cout<<cnt;
+        if((n/i)<=1){
+            cout<<i;
             break;
         }
+        n/=i;
     }
     return 0;
 }
