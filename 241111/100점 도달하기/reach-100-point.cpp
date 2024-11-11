@@ -6,17 +6,17 @@ int main() {
     int n;
     cin>>n;
 
-    for(int i=n;i<=100; i++){
-        if(n>=90){
+    for(int i=n;i<=100;i++){
+        if(i>=90){
             cout<<"A"<<" ";
         }
-        else if(n>=80){
+        else if(i>=80){
             cout<<"B"<<" ";
         }
-        else if(n>=70){
+        else if(i>=70){
             cout<<"C"<<" ";
         }
-        else if(n>=60){
+        else if(i>=60){
             cout<<"D"<<" ";
         }
         else{
