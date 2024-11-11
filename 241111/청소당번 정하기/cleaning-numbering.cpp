@@ -10,7 +10,7 @@ int main() {
     int n;
     cin>>n;
 
-    for(int i=1;i<=n-1;i++){
+    for(int i=1;i<=n;i++){
 
         if(i%12==0){
             cnt_12++;
